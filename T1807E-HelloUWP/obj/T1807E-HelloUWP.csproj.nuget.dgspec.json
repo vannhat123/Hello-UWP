@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nhatn\\source\\repos\\T1807E-HelloUWP\\T1807E-HelloUWP\\T1807E-HelloUWP.csproj": {}
+    "C:\\Users\\84976\\Desktop\\Window Forms\\Hello-UWP\\T1807E-HelloUWP\\T1807E-HelloUWP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nhatn\\source\\repos\\T1807E-HelloUWP\\T1807E-HelloUWP\\T1807E-HelloUWP.csproj": {
+    "C:\\Users\\84976\\Desktop\\Window Forms\\Hello-UWP\\T1807E-HelloUWP\\T1807E-HelloUWP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nhatn\\source\\repos\\T1807E-HelloUWP\\T1807E-HelloUWP\\T1807E-HelloUWP.csproj",
+        "projectUniqueName": "C:\\Users\\84976\\Desktop\\Window Forms\\Hello-UWP\\T1807E-HelloUWP\\T1807E-HelloUWP.csproj",
         "projectName": "T1807E-HelloUWP",
-        "projectPath": "C:\\Users\\nhatn\\source\\repos\\T1807E-HelloUWP\\T1807E-HelloUWP\\T1807E-HelloUWP.csproj",
-        "packagesPath": "C:\\Users\\nhatn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nhatn\\source\\repos\\T1807E-HelloUWP\\T1807E-HelloUWP\\obj\\",
+        "projectPath": "C:\\Users\\84976\\Desktop\\Window Forms\\Hello-UWP\\T1807E-HelloUWP\\T1807E-HelloUWP.csproj",
+        "packagesPath": "C:\\Users\\84976\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\84976\\Desktop\\Window Forms\\Hello-UWP\\T1807E-HelloUWP\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\nhatn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\84976\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

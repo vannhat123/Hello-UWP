@@ -29,7 +29,7 @@ namespace T1807E_HelloUWP.Pages
     public sealed partial class Register : Page
     {
 
-        private const string API_URL = "https://2-dot-backup-server-003.appspot.com/_api/v2/members";
+        private const string ApiUrl = "https://2-dot-backup-server-003.appspot.com/_api/v2/members";
         public Register()
         {
             this.InitializeComponent();
@@ -43,38 +43,45 @@ namespace T1807E_HelloUWP.Pages
                  Password = this.Password.Password
              };*/
 
-            var register1 = new Register1
-            {
-                firstName = this.FirstName.Text,
-                lastName = this.LastName.Text,
-                avatar = this.Avatar.Text,
-                phone = this.Phone.Text,
-                address = this.Address.Text,
-                introduction = this.Introduction.Text,
-                gender = Int32.Parse(this.Gender.Text),
-                birhtday = this.Birthday.Text,
-                password = this.Password.Password
+            //var register1 = new Register1
+            //{
+            //    firstName = this.FirstName.Text,
+            //    lastName = this.LastName.Text,
+            //    avatar = this.Avatar.Text,
+            //    phone = this.Phone.Text,
+            //    address = this.Address.Text,
+            //    introduction = this.Introduction.Text,
+            //    gender = Int32.Parse(this.Gender.Text),
+            //    birhtday = this.Birthday.Text,
+            //    password = this.Password.Password
 
-            };
+            //};
 
-            var hero = new Register1
+            var member = new Register1
             {
                 firstName = "Nhat",
                 password = "123456",
+                lastName = "Nguyen",
                 address = "Cau Dien",
-                avatar = "",
+                avatar = "https://i.ytimg.com/vi/Za0iUFKxzBc/maxresdefault.jpg",
                 birhtday = "2018-12-30",
-                email = "khongthe@gmail.com",
+                email = "nhatnvd00481@gmail.com",
                 gender = 1,
                 introduction = "Hllo T1807E",
                 phone = "01234567",
             };
             // validate phía client.
-         //   Debug.WriteLine(JsonConvert.SerializeObject(register1));
+            Debug.WriteLine(JsonConvert.SerializeObject(member));
             var httpClient = new HttpClient();
-            HttpContent content = new StringContent(JsonConvert.SerializeObject(register1), Encoding.UTF8,"application/json");
-         //   Task<HttpResponseMessage> httpRequestMessage = httpClient.PostAsync(API_URL, content);         
-            Debug.WriteLine(httpClient.PostAsync(API_URL, content).Result.Content.ReadAsStringAsync().Result);
+            //httpClient.DefaultRequestHeaders.Add("Authorization", "Basic " + token);
+            HttpContent content = new StringContent(JsonConvert.SerializeObject(member), Encoding.UTF8,
+                "application/json");
+            Task<HttpResponseMessage> httpRequestMessage = httpClient.PostAsync(ApiUrl, content);
+            String responseContent = httpClient.PostAsync(ApiUrl, content).Result.Content.ReadAsStringAsync().Result;
+            Debug.WriteLine("Response: " + responseContent);
+
+            Member resMember = JsonConvert.DeserializeObject<Member>(responseContent);
+           // Debug.WriteLine(resMember.email);
         }
     }
 }

@@ -119,6 +119,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Empty\Login1.cs" />
     <Compile Include="Empty\Member.cs" />
     <Compile Include="Empty\Register1.cs" />
     <Compile Include="MainPage.xaml.cs">
@@ -132,6 +133,9 @@
     </Compile>
     <Compile Include="Pages\MasterLayout.xaml.cs">
       <DependentUpon>MasterLayout.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\NavigationView25-09.xaml.cs">
+      <DependentUpon>NavigationView25-09.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\Register.xaml.cs">
       <DependentUpon>Register.xaml</DependentUpon>
@@ -171,6 +175,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\MasterLayout.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\NavigationView25-09.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

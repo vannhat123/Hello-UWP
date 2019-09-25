@@ -9,6 +9,14 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-
+        <ScrollViewer Margin="20">
+            <StackPanel Margin="50" HorizontalAlignment="Left" VerticalAlignment="Top">
+                <TextBlock>Email</TextBlock>
+                <TextBox x:Name="email"/>
+                <TextBlock>PassWord</TextBlock>
+                <PasswordBox x:Name="password"/>
+                <Button Click="Button_Click">Login</Button>
+            </StackPanel>
+        </ScrollViewer>
     </Grid>
 </Page>

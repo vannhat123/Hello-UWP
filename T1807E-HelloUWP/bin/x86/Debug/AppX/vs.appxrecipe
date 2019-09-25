@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-6OG4TNB</Machine>
-    <WindowsUser>nhatn</WindowsUser>
+    <Machine>DESKTOP-4F0L2OD</Machine>
+    <WindowsUser>84976</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>517b089f-a893-4a62-a8f0-6700d64104d3</PackageIdentityName>
     <PackageIdentityPublisher>CN=nhatn</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\nhatn\source\repos\T1807E-HelloUWP\T1807E-HelloUWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\84976\Desktop\Window Forms\Hello-UWP\T1807E-HelloUWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\nhatn\source\repos\T1807E-HelloUWP\T1807E-HelloUWP\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>BDAFCE67A0596882A899A112DA68AA717960F9335359F8AC1CFDCDBE6E101485</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\84976\Desktop\Window Forms\Hello-UWP\T1807E-HelloUWP\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>EF7A630CFC1CA3982E7EEB86405CDA7ED3807DB0FA3E17D6D009D7B4F00F09E2</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>517b089f-a893-4a62-a8f0-6700d64104d3_1.0.0.0_x86__jwxygy0xsj40j</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>517b089f-a893-4a62-a8f0-6700d64104d3_jwxygy0xsj40j!App</RegisteredUserModeAppID>
     <RegisteredPackageID>517b089f-a893-4a62-a8f0-6700d64104d3</RegisteredPackageID>
@@ -27,18 +27,18 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\nhatn\source\repos\T1807E-HelloUWP\T1807E-HelloUWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\84976\Desktop\Window Forms\Hello-UWP\T1807E-HelloUWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-20T14:22:18.864</Modified>
+      <Modified>2019-09-25T05:08:59.721</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\nhatn\source\repos\T1807E-HelloUWP\T1807E-HelloUWP\bin\x86\Debug\T1807E-HelloUWP.exe">
+    <AppxPackagedFile Include="C:\Users\84976\Desktop\Window Forms\Hello-UWP\T1807E-HelloUWP\bin\x86\Debug\T1807E-HelloUWP.exe">
       <PackagePath>entrypoint\T1807E-HelloUWP.exe</PackagePath>
-      <Modified>2019-09-20T14:22:18.374</Modified>
+      <Modified>2019-09-25T05:08:59.370</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nhatn\.nuget\packages\newtonsoft.json\12.0.2\lib\netstandard2.0\Newtonsoft.Json.dll">
+    <AppxPackagedFile Include="C:\Users\84976\.nuget\packages\newtonsoft.json\12.0.2\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
       <Modified>2019-04-21T18:06:16.000</Modified>
     </AppxPackagedFile>
@@ -50,83 +50,87 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T11:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nhatn\source\repos\T1807E-HelloUWP\T1807E-HelloUWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\84976\Desktop\Window Forms\Hello-UWP\T1807E-HelloUWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2019-09-18T12:03:23.759</Modified>
+      <Modified>2019-09-25T03:27:45.550</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nhatn\source\repos\T1807E-HelloUWP\T1807E-HelloUWP\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\84976\Desktop\Window Forms\Hello-UWP\T1807E-HelloUWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2019-09-18T10:55:39.785</Modified>
+      <Modified>2019-09-25T03:27:45.535</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nhatn\source\repos\T1807E-HelloUWP\T1807E-HelloUWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\84976\Desktop\Window Forms\Hello-UWP\T1807E-HelloUWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-18T10:55:39.785</Modified>
+      <Modified>2019-09-25T03:27:45.536</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nhatn\source\repos\T1807E-HelloUWP\T1807E-HelloUWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\84976\Desktop\Window Forms\Hello-UWP\T1807E-HelloUWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-18T10:55:39.785</Modified>
+      <Modified>2019-09-25T03:27:45.536</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nhatn\source\repos\T1807E-HelloUWP\T1807E-HelloUWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\84976\Desktop\Window Forms\Hello-UWP\T1807E-HelloUWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-18T10:55:39.785</Modified>
+      <Modified>2019-09-25T03:27:45.536</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nhatn\source\repos\T1807E-HelloUWP\T1807E-HelloUWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\84976\Desktop\Window Forms\Hello-UWP\T1807E-HelloUWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-18T10:55:39.785</Modified>
+      <Modified>2019-09-25T03:27:45.537</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nhatn\source\repos\T1807E-HelloUWP\T1807E-HelloUWP\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\84976\Desktop\Window Forms\Hello-UWP\T1807E-HelloUWP\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-18T10:55:39.785</Modified>
+      <Modified>2019-09-25T03:27:45.537</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nhatn\source\repos\T1807E-HelloUWP\T1807E-HelloUWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\84976\Desktop\Window Forms\Hello-UWP\T1807E-HelloUWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-09-18T10:55:39.785</Modified>
+      <Modified>2019-09-25T03:27:45.537</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nhatn\source\repos\T1807E-HelloUWP\T1807E-HelloUWP\bin\x86\Debug\T1807E-HelloUWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\84976\Desktop\Window Forms\Hello-UWP\T1807E-HelloUWP\bin\x86\Debug\T1807E-HelloUWP.xr.xml">
       <PackagePath>T1807E-HelloUWP.xr.xml</PackagePath>
-      <Modified>2019-09-20T11:58:05.425</Modified>
+      <Modified>2019-09-25T04:49:45.784</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nhatn\source\repos\T1807E-HelloUWP\T1807E-HelloUWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\84976\Desktop\Window Forms\Hello-UWP\T1807E-HelloUWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-09-20T14:22:18.162</Modified>
+      <Modified>2019-09-25T05:08:59.215</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nhatn\source\repos\T1807E-HelloUWP\T1807E-HelloUWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\84976\Desktop\Window Forms\Hello-UWP\T1807E-HelloUWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-09-20T14:22:18.162</Modified>
+      <Modified>2019-09-25T05:08:59.215</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nhatn\source\repos\T1807E-HelloUWP\T1807E-HelloUWP\bin\x86\Debug\Pages\HelloUDP.xbf">
+    <AppxPackagedFile Include="C:\Users\84976\Desktop\Window Forms\Hello-UWP\T1807E-HelloUWP\bin\x86\Debug\Pages\HelloUDP.xbf">
       <PackagePath>Pages\HelloUDP.xbf</PackagePath>
-      <Modified>2019-09-20T14:22:18.163</Modified>
+      <Modified>2019-09-25T05:08:59.216</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nhatn\source\repos\T1807E-HelloUWP\T1807E-HelloUWP\bin\x86\Debug\Pages\Login.xbf">
+    <AppxPackagedFile Include="C:\Users\84976\Desktop\Window Forms\Hello-UWP\T1807E-HelloUWP\bin\x86\Debug\Pages\Login.xbf">
       <PackagePath>Pages\Login.xbf</PackagePath>
-      <Modified>2019-09-20T14:22:18.163</Modified>
+      <Modified>2019-09-25T05:08:59.216</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nhatn\source\repos\T1807E-HelloUWP\T1807E-HelloUWP\bin\x86\Debug\Pages\MasterLayout.xbf">
+    <AppxPackagedFile Include="C:\Users\84976\Desktop\Window Forms\Hello-UWP\T1807E-HelloUWP\bin\x86\Debug\Pages\MasterLayout.xbf">
       <PackagePath>Pages\MasterLayout.xbf</PackagePath>
-      <Modified>2019-09-20T14:22:18.163</Modified>
+      <Modified>2019-09-25T05:08:59.216</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nhatn\source\repos\T1807E-HelloUWP\T1807E-HelloUWP\bin\x86\Debug\Pages\Register.xbf">
+    <AppxPackagedFile Include="C:\Users\84976\Desktop\Window Forms\Hello-UWP\T1807E-HelloUWP\bin\x86\Debug\Pages\NavigationView25-09.xbf">
+      <PackagePath>Pages\NavigationView25-09.xbf</PackagePath>
+      <Modified>2019-09-25T05:08:59.216</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\84976\Desktop\Window Forms\Hello-UWP\T1807E-HelloUWP\bin\x86\Debug\Pages\Register.xbf">
       <PackagePath>Pages\Register.xbf</PackagePath>
-      <Modified>2019-09-20T14:22:18.164</Modified>
+      <Modified>2019-09-25T05:08:59.216</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2019-03-18T10:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nhatn\source\repos\T1807E-HelloUWP\T1807E-HelloUWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\84976\Desktop\Window Forms\Hello-UWP\T1807E-HelloUWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-09-20T13:11:19.839</Modified>
+      <Modified>2019-09-25T03:49:14.099</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nhatn\source\repos\T1807E-HelloUWP\T1807E-HelloUWP\bin\x86\Debug\Core\T1807E-HelloUWP.exe">
+    <AppxPackagedFile Include="C:\Users\84976\Desktop\Window Forms\Hello-UWP\T1807E-HelloUWP\bin\x86\Debug\Core\T1807E-HelloUWP.exe">
       <PackagePath>T1807E-HelloUWP.exe</PackagePath>
-      <Modified>2019-09-20T14:22:18.859</Modified>
+      <Modified>2019-09-25T05:08:59.718</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
